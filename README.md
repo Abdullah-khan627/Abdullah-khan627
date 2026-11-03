@@ -1,7 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:E50914,50:8A2BE2,100:0A66FF&text=Abdullah%20Khan&fontColor=ffffff&fontSize=60&fontAlignY=38&animation=twinkling&desc=C%20%7C%20C%2B%2B%20Developer&descAlignY=60&descSize=22" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:E50914,50:8A2BE2,100:0A66FF&text=Abdullah%20Khan&fontColor=ffffff&fontSize=60&fontAlignY=38&animation=twinkling&desc=C%20%7C%20C%2B%2B%20%7C%20Python%20Developer&descAlignY=60&descSize=22" width="100%" />
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=700&color=FF2D2D&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Abdullah+%F0%9F%91%8B;C+%26+C%2B%2B+Developer+%F0%9F%92%BB;Building+smart+IoT+projects+%E2%9A%A1;Always+coding%2C+always+running+%F0%9F%8F%83" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=700&color=FF2D2D&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Abdullah+%F0%9F%91%8B;C%2C+C%2B%2B+%26+Python+Developer+%F0%9F%92%BB;Building+smart+IoT+projects+%E2%9A%A1;Always+coding%2C+always+running+%F0%9F%8F%83" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:E50914,25:FF9900,50:8A2BE2,75:00C2FF,100:0A66FF" width="100%" />
@@ -10,6 +10,12 @@
   <h2>🧠 Tech Stack</h2>
   <img src="https://img.shields.io/badge/C-0A66FF?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/C++-E50914?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-8A2BE2?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML-FF7A00?style=for-the-badge&logo=html5&logoColor=white" />
+  <br>
+  <img src="https://img.shields.io/badge/Linux-0A66FF?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-E50914?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git%20Bash-8A2BE2?style=for-the-badge&logo=gnubash&logoColor=white" />
 </div>
 
 <br>
@@ -21,8 +27,9 @@
 </div>
 
 - 🎓 Student at **NTU**, Computer Science
-- 💻 Writing **C / C++**
+- 💻 Writing **C / C++ / Python**
 - 📡 Building **IoT** projects
+- 🐧 Working on **Linux** and **Git Bash**
 - 📫 Reach me: *add your email / LinkedIn here*
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:E50914,25:FF9900,50:8A2BE2,75:00C2FF,100:0A66FF" width="100%" />
