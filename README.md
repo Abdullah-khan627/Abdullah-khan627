@@ -1,44 +1,43 @@
-<!-- HEADER: animated red → blue wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:E50914,100:0A66FF&text=Abdullah%20Khan&fontColor=ffffff&fontSize=60&fontAlignY=38&animation=fadeIn&desc=IoT%20%7C%20Embedded%20Systems%20%7C%20C%2B%2B&descAlignY=60&descSize=20" width="100%" />
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="90" viewBox="0 0 800 90">
+  <defs>
+    <linearGradient id="trackR" x1="0" x2="1">
+      <stop offset="0" stop-color="#E50914" stop-opacity="0"/>
+      <stop offset="1" stop-color="#E50914"/>
+    </linearGradient>
+    <linearGradient id="trackB" x1="0" x2="1">
+      <stop offset="0" stop-color="#0A66FF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0A66FF"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
 
-<!-- TYPING / RUNNING TEXT ANIMATION -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=FF2D2D&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Abdullah+%F0%9F%91%8B;Building+smart+IoT+projects+%E2%9A%A1;Learning+C%2B%2B+%26+Embedded+Systems+%F0%9F%94%B5;Always+coding%2C+always+running+%F0%9F%8F%83" alt="Typing SVG" />
-</div>
+  <!-- tracks -->
+  <line x1="0" y1="25" x2="800" y2="25" stroke="#E50914" stroke-opacity=".25" stroke-width="2" stroke-dasharray="10 8">
+    <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="0.6s" repeatCount="indefinite"/>
+  </line>
+  <line x1="0" y1="65" x2="800" y2="65" stroke="#0A66FF" stroke-opacity=".25" stroke-width="2" stroke-dasharray="10 8">
+    <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="0.8s" repeatCount="indefinite"/>
+  </line>
 
-<br>
+  <!-- red runner + trail -->
+  <rect x="0" y="22" height="6" rx="3" fill="url(#trackR)" filter="url(#glow)">
+    <animate attributeName="width" values="0;150;0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="0;780;800" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <circle r="9" cy="25" fill="#E50914" filter="url(#glow)">
+    <animate attributeName="cx" values="10;790" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="9;11;9" dur="0.5s" repeatCount="indefinite"/>
+  </circle>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/IoT-E50914?style=for-the-badge&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-0A66FF?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/ESP32-E50914?style=for-the-badge&logo=espressif&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-0A66FF?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-E50914?style=for-the-badge&logo=github&logoColor=white" />
-</div>
-
-<br>
-
-## 🔴 About Me
-- 🎓 Student at **NTU** — Computer Science
-- 🔭 Working on **IoT** projects
-- 🌱 Learning embedded systems and C++
-- 📫 Reach me: *add your email / LinkedIn here*
-
-## 🔵 Tech Stack
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,c,python,arduino,git,github,vscode&theme=dark" />
-</div>
-
-## 📊 GitHub Stats
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Abdullah-khan627&show_icons=true&hide_border=true&bg_color=0d1117&title_color=FF2D2D&icon_color=0A66FF&text_color=ffffff&ring_color=FF2D2D" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Abdullah-khan627&background=0d1117&ring=0A66FF&fire=FF2D2D&currStreakLabel=0A66FF&sideLabels=FF2D2D&currStreakNum=ffffff&sideNums=ffffff&dates=aaaaaa&hide_border=true" />
-</div>
-
-## 📈 Contribution Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abdullah-khan627&bg_color=0d1117&color=0A66FF&line=E50914&point=ffffff&area=true&area_color=0A66FF&hide_border=true" width="100%" />
-
-## 🐍 Contribution Snake
-<img src="https://raw.githubusercontent.com/Abdullah-khan627/Abdullah-khan627/output/github-snake-dark.svg" width="100%" />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0A66FF,100:E50914&section=footer" width="100%" />
+  <!-- blue runner + trail -->
+  <rect x="0" y="62" height="6" rx="3" fill="url(#trackB)" filter="url(#glow)">
+    <animate attributeName="width" values="0;150;0" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="0;780;800" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <circle r="9" cy="65" fill="#0A66FF" filter="url(#glow)">
+    <animate attributeName="cx" values="10;790" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="9;11;9" dur="0.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
