@@ -30,7 +30,6 @@
 - 💻 Writing **C / C++ / Python**
 - 📡 Building **IoT** projects
 - 🐧 Working on **Linux** and **Git Bash**
-- 📫 Reach me: *add your email / LinkedIn here*
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:E50914,25:FF9900,50:8A2BE2,75:00C2FF,100:0A66FF" width="100%" />
 
